@@ -13,8 +13,8 @@ header {
   background-position: center;
   color: #fff;
   text-align: center;
-  padding: 50px 20px 40px 20px;
-  position: relative;
+  padding: 40px 20px 40px 20px;
+  position: sticky;
 }
 
 /* Fondo semitransparente para mejorar la legibilidad del título */
@@ -30,9 +30,9 @@ header h1 {
 
 /* Navegación */
 nav {
-  background: #222;
+  background: #ab1212;
   text-align: center;
-  padding: 10px 0;
+  padding: 50px 0;
 }
 
 nav a {
@@ -73,7 +73,7 @@ main p {
 }
 
 main img {
-  max-width: 300px;
+  max-width: 400px;
   border-radius: 10px;
   margin: 15px 20px 15px 0;
   box-shadow: 0 2px 8px rgba(0,0,0,0.12);
@@ -81,9 +81,10 @@ main img {
 
 video {
   display: block;
-  margin: 30px auto 0 auto;
-  max-width: 100%;
-  border-radius: 10px;
+  margin: 20px auto 0 auto;
+  max-width: 50%;
+  border: 2px solid #ccc;
+  border-radius: 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.12);
 }
 
